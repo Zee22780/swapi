@@ -25,7 +25,8 @@ body{
 
 #top-bar {
   display: flex;
-  width: 100%;
+  justify-content: center;
+  margin: 0-9999rem;
   background-color: black;
   color: white;
 }
