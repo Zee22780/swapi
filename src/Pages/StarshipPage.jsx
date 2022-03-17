@@ -14,9 +14,9 @@ const StarshipPage = () => {
   return (  
     <div id="starship-details">
     <>
-    <h1>Starship Details</h1>
-    <h4>{starshipPage.name}</h4>
-    <h4>{starshipPage.model}</h4>
+    <h2>Starship Details</h2>
+    <h4>Starship Name: {starshipPage.name}</h4>
+    <h4>Starship Model: {starshipPage.model}</h4>
     
     <a id="links" href="/">Return to Starship List</a>
     </>
