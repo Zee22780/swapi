@@ -10,7 +10,8 @@ const StarshipList = (props) => {
     .then(starshipData => setStarshipList(starshipData.results))
   }, [])
   
-  return (  
+  return ( 
+    <div id="all-ships-container">
     <>
     {starshipList.length ?
     <>
@@ -30,7 +31,8 @@ const StarshipList = (props) => {
         <>
         <h2>Loading all starships...</h2>
         </>}
-    </>
+    </> 
+    </div>
   );
 }
 

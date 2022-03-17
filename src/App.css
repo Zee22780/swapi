@@ -30,3 +30,9 @@ body{
   background-color: black;
   color: white;
 }
+
+#all-ships-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
