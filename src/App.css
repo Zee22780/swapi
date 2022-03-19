@@ -49,3 +49,7 @@ body{
   width: 400px;
   height: 200px;
 }
+
+#index-starship {
+  justify-content: center;
+}

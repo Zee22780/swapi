@@ -15,8 +15,8 @@ const StarshipPage = () => {
     <div id="starship-details">
     <>
     <h2>Starship Details</h2>
-    <h4>Starship Name: {starshipPage.name}</h4>
-    <h4>Starship Model: {starshipPage.model}</h4>
+    <h4>NAME: {starshipPage.name}</h4>
+    <h4>MODEL: {starshipPage.name === starshipPage.model ? "No Model Details" : starshipPage.model}</h4>
     
     <a id="links" href="/">Return to Starship List</a>
     </>
